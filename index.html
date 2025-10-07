@@ -4,26 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albert Einstein</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <section>
-        <h1>About Me</h1>
-        <p>Albert Einstein was a theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science. He is best known to the general public for his mass–energy equivalence formula E = mc², which has been dubbed "the world's most famous equation".</p>
-        <p>Einstein was born in Ulm, in the Kingdom of Württemberg in the German Empire, on 14 March 1879. His parents were Hermann Einstein, a salesman and engineer, and Pauline Koch. In 1880, the family moved to Munich, where Einstein's father and his uncle Jakob founded Elektrotechnische Fabrik J. Einstein & Cie, a company that manufactured electrical equipment based on direct current.</p>
+    <header>
+        <h2>Albert Einstein</h2>
+        <nav>
+            <a href="#biography">Biography</a>
+            <a href="#quotes">Famous Quotes</a>
+            <a href="#papers">Papers Published</a>
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                &#9776; <!-- ☰ symbol --> </a>
+        </nav>
+    </header>
+    <main>
+    <h1 class="title">The Mind That Changed the World</h1>
+    <section id="biography" class="Biography">
+        <div class="picture-section">
+        <img id="Tongue-Picture" src="Einstein Picture With Tongue Out.png" alt="Albert Einstein with his tongue out">
+        </div>
+        <div class="bio-section">
+        <h2>The life of Albert Einstein</h2>
+        <p>Albert Einstein (1879–1955) was a German-born theoretical physicist who became one of the most influential scientists in history. He is best known for developing the theory of relativity, which revolutionized our understanding of space, time, and gravity, and for his famous equation E = mc², expressing the relationship between mass and energy.</p>
+
+        <p>Einstein was born on March 14, 1879, in Ulm, Germany, and grew up in Munich. From an early age, he showed curiosity about nature and a strong passion for mathematics and science. Although he faced challenges in traditional schooling, he excelled in independent thinking. He later attended the Swiss Federal Polytechnic in Zurich, graduating in 1900.</p>
+            
+        <p>In 1905, while working as a patent examiner in Switzerland, Einstein published four groundbreaking papers—now known as his “Annus Mirabilis” (Miracle Year) papers—that introduced the special theory of relativity, explained the photoelectric effect, described Brownian motion, and established the foundation for quantum theory. His work on the photoelectric effect later earned him the Nobel Prize in Physics in 1921.</p>
+            
+        <p>In 1915, Einstein completed his general theory of relativity, which extended his earlier ideas to include gravity. This theory predicted that massive objects could warp spacetime, a concept confirmed by observations of starlight bending during a solar eclipse in 1919. The success of this theory made Einstein an international celebrity.</p>
+            
+        <p>Einstein was also known for his advocacy of peace, civil rights, and education. A lifelong pacifist, he spoke out against militarism and totalitarianism. When Adolf Hitler came to power in 1933, Einstein, who was Jewish, fled Germany and eventually settled in the United States, where he accepted a position at the Institute for Advanced Study in Princeton, New Jersey.</p>
+            
+        <p>In his later years, Einstein focused on efforts to develop a unified field theory that would link all fundamental forces of nature. Although he never completed it, his search inspired future generations of physicists. He remained active in political and humanitarian causes until his death on April 18, 1955, in Princeton.</p>
+        </div>
     </section>
-    <section>
-        <h1>Image Collection</h1>
+    <section id="quotes">
+        <h2>Famous Quotes</h2>
+        <div class="quote-container">
+          <div class="quote-card">
+            <blockquote cite="https://managemagazine.com/article-bank/leadership-and-management-quotes/albert-einstein-quotes-and-sayings-about-life-and-success/">Peace cannot be kept by force; it can only be achieved by understanding.</blockquote>
+          </div>
+          <div class="quote-card">
+            <blockquote cite="https://managemagazine.com/article-bank/leadership-and-management-quotes/albert-einstein-quotes-and-sayings-about-life-and-success/">Life is like riding a bicycle. To keep your balance, you must keep moving.</blockquote>
+          </div>
+          <div class="quote-card">
+            <blockquote cite="https://managemagazine.com/article-bank/leadership-and-management-quotes/albert-einstein-quotes-and-sayings-about-life-and-success/">Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution</blockquote>
+          </div>
+        </div>
+      </section>
+      
+    <section id="papers">
+        <h2>Papers Published</h2>
+        <embed src="Paper1.pdf" type="application/pdf"/>  
+        <embed src="Paper2.pdf" type="application/pdf"/>
+        <embed src="Paper3.pdf" type="application/pdf"/>      
     </section>
-    <section>
-        <h1>Papers Published</h1>
-        <ul>
-            <li>1905 - Annus Mirabilis papers</li>
-            <li>1915 - General Theory of Relativity</li>
-            <li>1921 - Nobel Prize in Physics</li>
-            <li>1935 - EPR Paradox</li>
-    </section>
-    
+    </main>
+    <footer>
+        <p>&copy; 2024 Albert Einstein Tribute Page</p>
+    </footer>
 </body>
 </html>
