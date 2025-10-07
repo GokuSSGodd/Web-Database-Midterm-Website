@@ -13,10 +13,10 @@
         <nav id="navbar">
             <a href="#biography">Biography</a>
             <a href="#quotes">Famous Quotes</a>
-            <a href="#papers">Papers Published</a>
+            <a href="#papers">Published Papers</a>
         </nav>
-        <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-            &#9776; <!-- ☰ symbol --> </a>
+        <button class="hamburger" onclick="myFunction()">
+          &#9776;</button>        
     </header>
     <main>
     <h1 class="title">The Mind That Changed the World</h1>
@@ -53,13 +53,26 @@
           </div>
         </div>
       </section>
-      
     <section id="papers">
-        <h2>Papers Published</h2>
-        <embed src="Paper1.pdf" type="application/pdf"/>  
-        <embed src="Paper2.pdf" type="application/pdf"/>
-        <embed src="Paper3.pdf" type="application/pdf"/>      
-    </section>
+      <h2>Papers Published</h2>
+      <div class="papers-container">
+          <div class="paper-box">
+              <h3>Paper 1: Special Theory of Relativity</h3>
+              <p>This groundbreaking paper introduced the concept of special relativity, revolutionizing our understanding of space and time.</p>
+              <a href="Paper1.pdf" target="_blank">Read Paper</a>
+          </div>
+          <div class="paper-box">
+              <h3>Paper 2: Photoelectric Effect</h3>
+              <p>In this paper, Einstein explained the photoelectric effect, laying the foundation for quantum theory and earning him the Nobel Prize.</p>
+              <a href="Paper2.pdf" target="_blank">Read Paper</a>
+          </div>
+          <div class="paper-box">
+              <h3>Paper 3: Brownian Motion</h3>
+              <p>This paper provided empirical evidence for the existence of atoms by explaining the random motion of particles in a fluid.</p>
+              <a href="Paper3.pdf" target="_blank">Read Paper</a>
+          </div>
+      </div>
+  </section>
     </main>
     <footer>
         <p>&copy; 2024 Albert Einstein Tribute Page</p>
