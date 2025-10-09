@@ -271,12 +271,25 @@ footer {
     .navbar.responsive {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         position: absolute;
         background: var(--website-bg);
         top: 90px;
         border: var(--accent-color) 2px solid;
-        gap: 0px;
+        gap: 50px;
+        width: 100vw;
+    }
+
+    nav a {
+        font-size: var(--title-size);
+        font-weight: bold; 
+        margin-left: 10px;
+    }
+
+    nav a:hover {
+        background-color: transparent; 
+        color: var(--heading-color);
+        transition: none;
+        padding: 0;
     }
     
     .quote-container {
