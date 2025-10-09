@@ -1,8 +1,20 @@
+const navbar = document.getElementById('navbar');
+const hamburgericon = document.querySelector('.hamburger')
+const navlinks = document.querySelectorAll('nav > a');
+
 function ShowNav() {
-    var x = document.getElementById('navbar');
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
-    }
+  console.log(navbar.className);
+  if (navbar.className === 'navbar') {
+    navbar.className += " responsive";
+  } else {
+    navbar.className = "navbar";
+  }
 }
+
+function CloseNav() {
+  navbar.className = "navbar";
+}
+
+navlinks.forEach(link => {
+  link.addEventListener('click', CloseNav)
+}); 
