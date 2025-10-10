@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project delivers a **responsive personal website** designed for **Albert Einstein**, developed as part of a full-stack web development engagement. The goal was to interpret client requirements, design an elegant and scalable interface, and build a professional, grid-based website that showcases Einstein’s biography, notable works, and publications while maintaining readability and responsiveness across devices.
+This project delivers a **responsive personal website** designed for **Albert Einstein**, developed as part of a midterm for web database application development course. The goal was to interpret client requirements, design an elegant and scalable interface, and build a professional, grid-based website that showcases Einstein’s biography, notable works, and publications while maintaining readability and responsiveness across devices.
 
 The final deliverable includes a **functional static website**, a **wireframe prototype**, and deployment to **Netlify** for public accessibility.
 
@@ -70,7 +70,7 @@ The site is deployed on **Netlify**, utilizing Git-based deployment for simplici
 5. Deploy and confirm public accessibility.
 
 **Repository:** [Web-Database-Midterm-Website](https://github.com/GokuSSGodd/Web-Database-Midterm-Website)  
-**Live Deployment:** _Add your Netlify URL here once deployed_
+**Live Deployment:** _[Add your Netlify URL here once deployed](https://web-database-app-dev-midterm.netlify.app/)_
 
 ---
 
@@ -78,8 +78,6 @@ The site is deployed on **Netlify**, utilizing Git-based deployment for simplici
 
 A detailed wireframe was created in **draw.io** to visualize structure and layout before implementation.  
 It illustrates the hierarchy of the hero image, content blocks, and responsive grid design.
-
-**File:** `/wireframes/laptop-wireframe.png`
 
 ---
 
