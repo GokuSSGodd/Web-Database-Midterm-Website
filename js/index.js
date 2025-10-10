@@ -1,5 +1,4 @@
 const navbar = document.getElementById('navbar');
-const hamburgericon = document.querySelector('.hamburger')
 const navlinks = document.querySelectorAll('nav > a');
 
 function ShowNav() {
@@ -18,3 +17,9 @@ function CloseNav() {
 navlinks.forEach(link => {
   link.addEventListener('click', CloseNav)
 }); 
+
+window.addEventListener('resize', function(){
+  if (this.window.innerWidth >= 1050){
+    CloseNav(); 
+  }
+});
