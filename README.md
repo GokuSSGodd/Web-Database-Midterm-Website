@@ -70,7 +70,7 @@ The site is deployed on **Netlify**, utilizing Git-based deployment for simplici
 5. Deploy and confirm public accessibility.
 
 **Repository:** [Web-Database-Midterm-Website](https://github.com/GokuSSGodd/Web-Database-Midterm-Website)  
-**Live Deployment:** _[Add your Netlify URL here once deployed](https://web-database-app-dev-midterm.netlify.app/)_
+**Live Deployment:** _[Web-Database-Midterm-Website](https://web-database-app-dev-midterm.netlify.app/)_
 
 ---
 
